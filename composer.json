@@ -1,0 +1,45 @@
+{
+  "name": "dmstr/yii2-vue-shufflejs-widget",
+  "description": "Yii2 Widget for Vue.js & VueShuffleJs plugin.",
+  "type": "yii2-extension",
+  "keywords": [
+    "yii2",
+    "extension",
+    "javascript",
+    "Shuffle.js",
+    "Vue.js"
+  ],
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Marc Mautz",
+      "email": "m.mautz@herzogkommunikation.de"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "*",
+    "npm-asset/vue-shufflejs-plugin": "^0.1.8",
+    "dmstr-forks/prawee-yii2-vuejs": "^0.1.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "dmstr\\widgets\\vueshufflejs\\": "src"
+    }
+  },
+  "repositories": {
+    "dmstr-forks/prawee-yii2-vuejs": {
+      "type": "vcs",
+      "url": "https://github.com/dmstr-forks/yii2-vuejs.git"
+    }
+  },
+  "config": {
+    "fxp-asset": {
+      "repositories": {
+        "npm-asset/vue-shufflejs-plugin": {
+          "type": "npm-vcs",
+          "url": "https://git.hrzg.de/dmstr/vue-shufflejs-plugin.git"
+        }
+      }
+    }
+  }
+}
