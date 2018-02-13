@@ -71,7 +71,7 @@ class VueShuffle extends Widget
         // Register global application language
         $view->registerJs(
             'var language = "' . \Yii::$app->language . '";',
-            \yii\web\View::POS_END,
+            \yii\web\View::POS_HEAD,
             'language'
         );
 
