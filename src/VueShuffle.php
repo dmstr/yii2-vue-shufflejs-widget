@@ -68,6 +68,14 @@ class VueShuffle extends Widget
         ImagesLoadedAsset::register($view);
         ShuffleJsAsset::register($view);
 
+        // Register global application language
+        $view->registerJs(
+            'var language = "' . \Yii::$app->language . '";',
+            \yii\web\View::POS_END,
+            'language'
+        );
+
+        // Register vue application
         $view->registerJs(
             "var vm = new Vue({
                   el: '#app',
