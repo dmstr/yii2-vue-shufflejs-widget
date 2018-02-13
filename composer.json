@@ -18,7 +18,7 @@
   ],
   "require": {
     "yiisoft/yii2": "*",
-    "npm-asset/vue-shufflejs-plugin": "^0.2.5",
+    "npm-asset/vue-shufflejs-plugin": "^0.2.6",
     "dmstr-forks/prawee-yii2-vuejs": "^0.1.1"
   },
   "autoload": {
