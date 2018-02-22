@@ -7,7 +7,7 @@
  * file that was distributed with this source code.
  */
 ?>
-<div class="container">
+<div>
     <div id="app">
         <vue-shuffle :settings="settings" :products="products"></vue-shuffle>
     </div>
