@@ -79,7 +79,7 @@ class VueShuffle extends Widget
         $view->registerJs(
             "var vm = new Vue({
                   el: '#app',
-                  data () {
+                  data: function () {
                     return {
                       settings: " . Json::encode($this->options['settings']) . ",
                       products: {
