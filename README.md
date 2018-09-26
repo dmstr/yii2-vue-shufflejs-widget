@@ -12,11 +12,11 @@ The preferred way to install this extension is through [composer](http://getcomp
 
 Either run 
 
-`composer require dmstr/yii2-vue-shufflejs-widget:"^0.1"` 
+`composer require dmstr/yii2-vue-shufflejs-widget:"^0.2"`
 
 or add 
 
-`"dmstr/yii2-vue-shufflejs-widget": "^0.1"` 
+`"dmstr/yii2-vue-shufflejs-widget": "^0.2"`
 
 to the require section of your `composer.json` file.
 
