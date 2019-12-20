@@ -20,7 +20,7 @@ class VueShufflePluginAsset extends AssetBundle
     /**
      * @inheritdoc
      */
-    public $sourcePath = '@npm/vue-shufflejs-plugin/dist';
+    public $sourcePath = '@vendor/npm/dmstr--vue-shufflejs-plugin/dist';
 
     /**
      * @inheritdoc
